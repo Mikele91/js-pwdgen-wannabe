@@ -6,5 +6,5 @@ var colore = prompt("inserisci il tuo colore preferito");
 
 const numClass = parseInt("40");
 
-document.getElementById("password-generator").innerHTML = nome + cognome + colore +numClass;
+document.getElementById("password-generator").innerHTML += " "+ nome + cognome + colore +numClass;
 
